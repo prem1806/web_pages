@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login system | indegene manayat tech park</title>
+	</head>
+		<link rel = "stylesheet" type = "text/css" href = "css/style1.css"> <!-- Connecting the css for designing -->
+	<!-- Body start -->	
+	<body>
+		<div id="main"> <!-- Main div which is content all the dives -->
+		<div id="message"></div><br><!-- Confirmition messages are shown here -->
+		<img src="images/logo.png" alt = "" /><br><br><br>
+		<label for="uname" id = "">Username</label><br>
+		<input type="text" id="username" placeholder = "Enter Your username" >
+		<label for="pwd" id="p1">Password</label>
+		<input type="password" id="password" placeholder = "Enter Your password"><br><br>
+		<button id="button">Log in</button>
+		</div>
+	<script src="jquery-1.11.3.min.js"></script> <!-- Connecting the jquery -->
+	<script type="text/javascript">
+	$("#button").click(function(){
+		var user="umar";
+		var pass="password";
+		var u= $("#username").val();
+		var p= $("#password").val();
+		//Useing if else for login system 
+	if(u==user && p==pass){
+		$("#img1").remove();
+		$("#text").remove();
+		$("#message").css({backgroundColor:"#008000",color:"#ffffff"});
+		$('#message').prepend('<img id="img1" src="images/right.png" width=40><h4 id="text">You Have Logged In</h4>')
+		}
+	else{
+		$("#img1").remove();
+		$("#text").remove();
+		$("#message").css({backgroundColor:"#d35351",color:"#ffffff",width:"30px;"});
+		$('#message').prepend('<img id="img1" src="images/w.png" width=50><h4 id="text">Your password is wrong .</h4>')
+		}
+		});
+</script>
+</body><!-- Body end -->	
+</html>

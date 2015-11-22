@@ -1,0 +1,51 @@
+
+<div id="div1" class="client">
+<img src="apple.ico" width="150" align="left">
+<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services</p>
+CEO: Tim Cook
+Founded: April 1, 1976, Cupertino, California, United States
+Headquarters: Cupertino, California, United States
+Country of origin: United States of America
+Founders: Steve Jobs, Ronald Wayne, Steve Wozniak
+</div>
+
+<div id="div2" class="client">
+<img src="loreal.jpg" width="150" align="left">
+<p>The L'Oréal Group is a French cosmetics and beauty company, headquartered in Clichy, Hauts-de-Seine.It is the world's largest cosmetics company, and has a registered office in Paris. It has developed activities in the field of cosmetics, concentrating on hair colour, skin care, sun protection, make-up, perfumes and hair care, the company is active in the dermatology, toxicology, tissue engineering, and biopharmaceutical research fields and is the top nanotechnology patent-holder in the United States</p>
+Address: L’Oreal India Pvt. Ltd #34, 2nd Floor Lotus Building Race course road Bangalore - 560001, Racecourse Rd, Racecourse, Gandhi Nagar, Bengaluru, Karnataka 560001
+</div>
+
+<div id="div3" class="client">
+<img src="uni.jpeg" width="150" align="left">
+<p>Unilever is a British-Dutch multinational consumer goods company co-headquartered in Rotterdam, Netherlands, and London, United Kingdom. Its products include food, beverages, cleaning agents and personal care products.</p>
+CEO: Tim Cook
+Founded: April 1, 1976, Cupertino, California, United States
+Headquarters: Cupertino, California, United States
+Country of origin: United States of America
+Founders: Steve Jobs, Ronald Wayne, Steve Wozniak
+</div>
+<div id="div4" class="client">
+<img src="master.png" width="150" align="left">
+<p>MasterCard Incorporated or MasterCard Worldwide is an American multinational financial services corporation headquartered in the MasterCard International Global Headquarters, Purchase, New York, United States, in Westchester County.</p>
+CEO: Ajaypal Singh Banga
+Headquarters: Purchase, New York, United States
+Founded: December 16, 1966
+Founders: Bank of California, First Interstate Bancorp, Crocker National Bank, Wells Fargo
+</div>
+<div id="div5" class="client">
+<img src="micro.png" width="150" align="left">
+<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services</p>
+CEO: Satya Nadella
+Founded: April 4, 1975, Albuquerque, New Mexico, United States
+Headquarters: Redmond, Washington, United States
+Country of origin: United States of America
+Founders: Bill Gates, Paul Allen
+</div>
+<div id="div6" class="client">
+<img src="nike.ico" width="150" align="left">
+<p>Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing and worldwide marketing and sales of footwear, apparel, equipment, accessories and services.</p>
+CEO: Mark Parker
+Headquarters: Beaverton, Oregon, United States
+Founded: January 25, 1964
+Founders: Bill Bowerman, Phil Knight
+</div>

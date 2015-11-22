@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.col-1{
+	background:#006;
+	
+}
+.col-2{
+	background:#063;
+	
+}
+.col-3{
+	background:#903;
+	
+}
+.col-4{
+	background:#099;
+	
+}
+.col-5{
+	background:#063;
+	
+}
+.col-6{
+	background:#FC0;
+	
+}
+h1{
+	color:#FFF;
+	margin-left:4ex;
+}
+li{
+	color:#FFF;
+	margin-left:5ex;
+}
+p{
+	color:#FFF;
+	margin-left:10ex;
+}

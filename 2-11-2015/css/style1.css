@@ -1,0 +1,40 @@
+@charset "utf-8";
+body {
+	background-color: #993;
+	background-image:url("../images/flo_1.png");
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	font-size:18px;
+}
+address{
+	color:#013605;
+	text-align:center;
+	
+}
+
+h1 {
+	color:#CFCFCF;
+	font-family:cooper Black;
+	text-align:center;
+}
+h2{
+	color:#FFF;
+	text-align:center;
+	font-family:adobe Fan Heiti std B;
+}
+dt{
+	color:#F93;
+}
+dt em{
+	
+	color:#000;
+	font-style:normal;
+	font-weight:bolder;
+}
+dd em{
+	color:#CCC;
+}
+.footer{
+	color:#F30;
+}
+	

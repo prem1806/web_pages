@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			#first{
+				width:500px;
+				height:300px;
+				border-style:solid;
+				border-width:3px;
+				border-color:#000;
+				margin:auto;
+				margin-top:60px;
+				border-radius:10px;
+				background-color:#ccffcc;
+			}
+			#second{
+				width:500px;
+				height:100px;
+				border-style:solid;
+				border-width:3px;
+				border-color:#000;
+				margin:auto;
+				border-radius:10px;
+				margin-top:10px;
+				background-color:#98FB98;
+			}
+			#but1{
+				width:130px;
+				height:70px;
+				margin-top:15px;
+				margin-left:90px;
+				font-size:25px;
+				float:left;
+				border-radius:10px;
+				background-color:#87CEFA;
+					
+			}
+			#but2{
+				width:130px;
+				height:70px;
+				font-size:25px;
+				float:left;
+				margin-top:15px;
+				margin-left:90px;
+				border-radius:10px;
+				background-color:#87CEFA;
+			}
+			#tim{
+				margin-top:90px;
+				margin-left:120px;
+				font-size:100PX;
+			}
+			.m1{
+				font-size:20px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="first">
+			<div id="tim">
+				<span id="n1">60</span> <span class="m1">min</span><span>:</span><span id="n2">00</span><span class="m1">sec</span>
+			</div>
+		</div>
+		<div id="second">
+			<div id="but">
+				<input type="button" value="start" id="but1" onClick="start1()">
+			</div>
+			<div id="bu">
+				<input type="button" value="Reset" id="but2" onClick="reset()">
+			</div>
+		</div>
+		<script type="text/javascript">
+
+				function watch(){
+				
+				var minutes = document.getElementById("n1").innerHTML;
+				
+				var seconds = document.getElementById("n2").innerHTML;
+				
+				seconds--;
+				
+				if(seconds<0){
+				
+					minutes--;
+					
+					if(minutes<0 )
+					{
+						clearInterval(pro);
+						document.getElementById("n1").innerHTML = 60;
+						document.getElementById("n2").innerHTML = 00;
+					}
+					else{
+						document.getElementById("n2").innerHTML = 59;
+						document.getElementById("n1").innerHTML = minutes;
+					}
+				}
+				else{
+				  document.getElementById("n2").innerHTML = seconds;}
+				}
+				var pro;
+				function start1(){	
+					pro = setInterval(function(){watch()},1000);
+				}
+
+				function reset(){
+					 clearInterval(pro);
+					 document.getElementById("n1").innerHTML = 60;
+					 document.getElementById("n2").innerHTML = "00";
+				}
+		</script>
+	</body>
+	
+</html>

@@ -1,0 +1,1 @@
+window.document.write("<h1>hell good morning</h1>");

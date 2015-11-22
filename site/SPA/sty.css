@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+}
+#hom{
+	width: 1100px;
+	height: 700px;
+	margin-left: 100px;
+	margin-top: 50px;
+	background-image: url(bg.jpg);
+}
+#main1{
+	height: 400px;
+	width: 700px;
+	float: left;
+
+}
+#home1{
+    height: 400px;
+    width: 700px;
+	}
+.para1{
+	text-align:justify;
+	}	
+#content{
+	height: 400px;
+    width: 400px;
+    margin-left: 90px;
+    float: left;
+
+	}

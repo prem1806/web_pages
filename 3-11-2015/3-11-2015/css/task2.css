@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background-image:url(../images/head.gif);
+	height:90px;
+	background-repeat:repeat-x;
+	position:relative;
+}
+#logo{
+	margin-left:300px;
+	
+	}
+#first ul{
+	padding:0px;
+	margin:0px;
+
+}
+#first ul li{
+	float:left;
+	list-style-type:none;
+}
+.products{
+	float:left;
+}
+.about{
+	float:left;
+}
+.Stores{
+	float:left;
+}
+.Recruit{
+	float:left;
+}
+.contact{
+	float:left;
+}
+.second{
+	clear:both;
+	padding-top:6px;
+}
+.side1{
+	padding-top:15px;
+	padding-bottom:20px;
+}
+.five{
+	font-family:"Times New Roman", Times, serif;
+	
+}
+#cont{
+	width:500px;
+	float:left;
+	}
+#bann{
+	float:left;
+}
+.four{
+	font-family:"Times New Roman", Times, serif;
+}
+.ban2{
+	float:left;
+}
+#news{
+	list-style-image:url(../../../28-10-2015/point.gif);
+}
+
+#footer{
+	clear:both;
+	background-image:url(../images/foot.gif);
+	height:30px;
+	text-align:center;
+}
+.top{
+	width:100%;
+	height:90px;
+}
+#first{
+	margin-left:300px;
+}
+#news{
+	margin-left:10px;
+}
+#a1{
+	margin-left:300px;
+}
+li{
+	list-style-type:none;
+}
+#list{
+	position:relative;
+	right:42px;
+}
+.third{
+	padding-top:15px;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	#top{
+		width:600px;
+		height:600px;
+		background-color:#E4C9C9;
+		margin:auto;
+	}
+	#img1{
+		width:170px;
+		height:50px;
+	}
+	#display{
+		width:250px;
+		height:50px;
+		border-radius:10px;
+		display:inline-block;
+		margin-top:50px;
+		margin-left:190px;
+	}
+	#im{
+		display:block;
+		width:150px;
+		height:50px;
+		margin-top:50px;
+		margin-left:210px;
+		margin-bottom:30px;
+	}
+	#im1{
+		display:block;
+		width:150px;
+		height:50px;
+		margin-top:30px;
+		margin-left:210px;
+		margin-bottom:10px;
+	}
+	#im2{
+		display:block;
+		width:150px;
+		height:50px;
+		margin-top:30px;
+		margin-left:210px;
+		margin-bottom:10px;
+	}
+	#im3{
+		display:block;
+		width:150px;
+		height:50px;
+		margin-top:30px;
+		margin-left:210px;
+		margin-bottom:10px;
+	}
+	
+	#user{
+		
+		width:200px;
+		height:30px;
+		margin-top:10px;
+	}
+	#passw{
+		margin-top:10px;
+		width:200px;
+		height:30px;
+	}
+	#lab1{
+		margin-bottom:25px;
+		font-family:Arial, Helvetica, sans-serif;
+		
+	}
+	#lab2{
+		margin-bottom:25px;
+		font-family:Arial, Helvetica, sans-serif;
+	
+	}
+	#log{
+		width:200px;
+		height:30px;
+		background-color:blue;
+		color:#FFF;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	#span{
+		text-align:center;
+		margin-left:10px;
+		font-size:17px;
+		margin-top:0px;
+		height:30px;
+		width:250px;
+		position:fixed;
+		color:#FFF;
+		font-family:Arial, Helvetica, sans-serif;
+	
+	}
+	#span1{
+		text-align:center;
+		margin-left:0px;
+		font-size:20px;
+		margin-top:0px;
+		height:30px;
+		width:250px;
+		position:fixed;
+		color:#FFF;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+</style>
+
+
+</head>
+
+<body>
+	<div id="top">
+    	<div id="middle">
+        	<form  onsubmit="return checkForm(this)">
+            <div id="display">
+            	
+            </div>
+             <div id="im">
+                <img src="logo.png" alt="img" id="img1">
+             </div>
+             <div id="im1">
+                <label id="lab1">Username</label><br>
+                <input type="text" name="username" id="user">
+             </div>
+          	<div id="im2">
+                <label id="lab2">Password</label><br>
+                <input type="password" name="password" id="passw">
+            </div>
+            <div id="im3">
+            	<input type="button" value="Login" id="log" onClick="login()">
+            </div>
+            </form>
+        </div>
+    
+    
+    </div>
+	<script src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+		function login(){
+			var username= "prem";
+			var password= "prem";
+			var usr = $('#user').val();
+			var pass = $('#passw').val();
+			
+			if(username==usr && password==pass)
+			{	
+				$('#display').css('background-color','green')
+				$('#display').html('<span id="span"><img src="tick.png" width="23px">your password is correct</span>')
+			}
+			else
+			{	
+				$('#display').css('background-color','red')
+				$('#display').html('<span id="span1"><img src="c.png" width="25px">  your password is wrong</span>')
+			}
+		};
+		
+</script>
+</body>
+</html>

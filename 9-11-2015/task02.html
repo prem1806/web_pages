@@ -1,0 +1,41 @@
+<html>
+	<head>
+	<title></title>
+	<style type="text/css">
+	.cel{
+		
+		font-family:Courier New;
+		text-align:center;
+		padding-top:100px;
+		font-size:20px;
+		
+	}
+	
+	
+	</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			k=prompt("1.fahrenheite to celsius \n 2.celsius to fahrenheite ");
+			function celsius(f){
+				c=(5*(f-32))/9;
+				document.write('<div class="cel"><h1>The given temperature in celsius is:</h1>'+c+"&degC");
+				document.write('</div>');
+			}
+			function fahrenheite(c){
+				var f=((c*9)/5)+32;
+				document.write('<div class="cel"><h1>The given temperature in fahrenheit is:</h1>'+f+"&degF");
+				document.write('</div>');
+			}
+			
+			if(k==1){
+				var c= prompt("enter the temperature in celsius");
+				fahrenheite(c);
+				}
+			else{
+				var f= prompt("enter the temperature in fahrenheit");
+				celsius(f);
+			}
+		</script>
+	</body>
+</html>

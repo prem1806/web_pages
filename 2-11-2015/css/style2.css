@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#c7b073;
+	background-image:url(../../../28-10-2015/bg_flower.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:right top;
+	
+	}
+.f1{
+	background-image:url("../images/home.jpg");
+	height:300px;
+	width:950px;
+	color:#FFF;
+	text-align:right;
+}
+.f1 p{
+	direction:rtl;
+	}
+
+
+h1 {
+	color: #FFF;
+}
+em {
+	color: #090;
+	font-family:Cooper Black;
+}
+h1 em em {
+	font-size: 3px;
+	color: #CCC;
+}
+.f2{
+	height:70px;
+	margin-right:410px;
+		
+	
+}
+.f2 img{
+	
+	width:300px;
+}
+p{
+	text-align:justify;
+	width:950px;
+}
+.a{
+	vertical-align:text-bottom;
+	font-size:12px;
+	color:#FFF;
+	
+}
+hr{	
+	width:950px;
+	color:#fff;
+	
+}
+h3{
+	font-family:hobo std;
+}
+	

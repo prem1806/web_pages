@@ -1,0 +1,15 @@
+
+<img src="about.png">
+<blockquote><p>“Afraid of being exposed, dying to be seen — there’s a dilemma for you.”<br />
+-Philip Roth,<em> The Human Stain</em></p></blockquote>
+<p><strong>Information overload</strong> is a brick wall for website engagement that sets in very quickly &#8211; and once it does, it can be very difficult to regain your visitors’ attention.</p>
+<p>In our online travels, we’ve identified several tools and principles that should live in every designers’ utility belt. They can be used to attack the challenge of creating a content-rich site:</p>
+<ol>
+<li><strong>White space &#8211;</strong> allowing the content (and your visitors’ eyes) room to breathe</li>
+<li><strong>Boxes, borders &amp; graphical planes &#8211;</strong> Segmenting the information into visual categories</li>
+<li><strong>An intuitive search method &#8211;</strong> Letting your users jump straight to the info they need</li>
+<li><strong>Grids &#8211;</strong> Although not always necessary for comprehension, keeping content within a rigid, consistent structure helps reduce the effort required to process it</li>
+<li><strong>Strong information hierarchy &#8211;</strong> Establishing a consistent design language using content types (blurbs, excerpts, call to actions)</li>
+<li><strong>Visual hierarchy &#8211;</strong> The relative importance of different content areas and elements can be visually implied in many ways, ranging from typographic treatments (headlines, sub-headings, pull-quotes, etc.), to image sizes and saturation, placement, etc.</li>
+</ol>
+<p>In the examples of content-rich websites that follow, you’ll see many of these best practices applied effectively in order to maintain an enjoyable, friction-free experience.</p>

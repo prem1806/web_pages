@@ -1,0 +1,179 @@
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+}
+#main1{
+	width:1100px;
+	margin:0 auto;
+}
+
+body{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+header{
+	background-color:#009fb4;
+	height:70px;
+	color:#daf1f5;
+}
+h1{
+	font-family:pristina;
+	font-weight:lighter;
+}
+#head{
+	margin-left:45px;
+}
+#head p{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+nav ul{
+	float:right;
+	list-style:none;
+	display:inline;
+	margin-right:90px;
+}
+nav ul li{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:90px;
+	height:30px;
+	
+}
+nav button{
+	color:#daf1f5;
+	background-color:inherit;
+	border:none;
+	width:90px;
+	height:30px;
+	
+}
+nav button:hover, nav button.active{
+	background-color:orange;
+	color:white;
+	width:90px;
+	height:30px;
+	border-radius:3px;
+	border:none;
+}
+#head{
+	float:left;
+}
+main{
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+}
+#gmap{
+	width:400px;
+	height:400px;
+}
+hr{
+	float:left;
+	width:424px;
+	height:5px;
+	padding:1px;
+	margin-top:30px;
+	border-color:#CCCCCC;
+}
+#lftmain{
+	width:400px;
+	float:left;
+}
+#rtmain{
+	width:500px;
+	float:right;
+}
+#lin{
+	height:50px;
+}
+#lin h2{
+	float:left;
+	color:#009fb4;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:lighter;
+	font-size:22px;
+	padding:20px;
+}
+input{
+	margin-top:10px;
+	padding:5px;
+	border-radius:3px;
+	border:1px solid #CCC;
+}
+#txt{
+	width:400px;
+	height:135px;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	font-size:14px;
+}
+textarea{
+	margin-top:10px;
+	border-radius:3px;
+	border:1px solid #CCC;
+}
+#inp{
+	float:right;
+	width:500px;
+	height:300px;
+}
+#btns button{
+	width:80px;
+	height:50px;
+	background-color:white;
+	border:none;
+	color:orange;
+	float:right;
+	font-weight:600;
+}
+footer{
+	background-color:#009fb4;
+	height:55px;
+	color:#daf1f5;
+	clear:both;
+}
+h4{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:20px;
+	font-size:12px;
+	margin-left:45px;
+}
+#foot{
+	float:right;
+	margin-right:45px;
+	margin-top:10px;
+}
+
+.clearfix{
+	clear:both
+}
+p{font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	font-size:16px;
+	}
+#portleft{
+	float:left;}	
+#portright{
+	margin-left:50px;
+	width:720px;
+	overflow:hidden;
+	float:left;}
+.poimg{
+	margin:10px;
+	border:solid 2px #cccccc;}
+.client{
+	width:500px;
+	text-align:justify;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+	border:solid 2px #000;
+	}			

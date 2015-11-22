@@ -1,0 +1,5 @@
+<img src="1.jpg" width="280" >
+<img src="2.png" width="280" >
+<img src="3.jpg" width="280" >
+<img src="4.jpg" width="280" >
+ <p>Designing a good website that accommodates a lot of content is a tricky balancing act to pull off. Does one attempt to present the user with all the information in a clean, organized manner, or reveal it bit-by-bit, in an effort to create an engaging breadcrumb trail that tugs the user along the road to enlightenment? <strong>Get it wrong, and you risk overwhelming your visitors</strong>, who’ll then leave without retaining any part of what they just read. Get it right, though, and you’ll have gained a new audience member who not only understands your message, but also might just bring a few friends with them when they return.</p>

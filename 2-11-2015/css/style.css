@@ -1,0 +1,62 @@
+@charset "utf-8";
+h1 {
+	color: #F00;
+	font:bolder 50px prem1;
+	letter-spacing:6px;
+	
+}
+address {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+}
+body {
+	font-family: prem1;
+	background-color:#0CF !important;
+	background-image:url("../images/download.png");
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-attachment:scroll;
+	
+
+}
+@font-face{
+	src:url("ShadowsIntoLight.ttf");
+	font-family:prem;
+}
+@font-face{
+	src:url("Lobster-Regular.ttf");
+	font-family:prem1;
+}
+p{
+	font-variant:small-caps;
+	line-height:150%;
+	width:400px;
+	text-align:justify;
+	font-size: 20px;
+	text-indent:50px;
+	word-spacing:3px;
+	direction:rtl;
+	cursor:move;
+	outline:dotted 4px #F00;
+
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-image:url("../images/p.jpg");
+	background-color:#FFF;
+	list-style-position:inside;
+}
+@media print{
+	#break{
+		page-break-after:always;
+	}
+}
+table{
+	border-collapse:separate;
+	border-spacing:30px;
+	caption-side:bottom;
+	table-layout:fixed;
+}

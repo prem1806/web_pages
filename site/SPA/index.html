@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body>
+<header>
+	<div id="head">
+	<h1>Web Design</h1>
+    <p>CREATIVE BUREAU</p>
+    </div>
+    <nav>
+    	<ul>
+        	<li><button id="h1" class="active">HOME</button></li>
+            <li><button id="a1">ABOUT</button></li>
+            <li><button id="p1">PORTFOLIO</button></li>
+            <li><button>CLIENTS</button></li>
+            <li><button id="c1">CONTACTS</button></li>
+        </ul>
+    </nav>
+</header>
+<div id="container">
+</div>
+
+<script type="text/javascript">
+	$("#container").load("home.html");
+	$("#h1").click(function(){
+		$("#container").load("home.html");
+	});
+	$("#a1").click(function(){
+		$("#container").load("about.html");
+	});
+	$("#c1").click(function(){
+		$("#container").load("contact.html");
+	});
+	$("nav").ready(function(){
+		$('button').click(function() {
+			$("li button").removeClass('active');
+			$(this).addClass('active');
+		});
+	});
+</script>
+
+<footer>
+	<h4>Web Design(0)2013  |   Privacy Policy</h4>
+<img src="social.png" width="107" height="31" alt="social"> 
+</footer>
+
+</body>
+</html>

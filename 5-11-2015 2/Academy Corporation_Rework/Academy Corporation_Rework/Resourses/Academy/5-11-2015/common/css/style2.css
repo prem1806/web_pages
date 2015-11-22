@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+li img {
+	display:block;
+}
+a img {
+	border:none;
+}
+li{
+	list-style-type:none;
+}
+body {
+	font-size:14px;
+	color:#333;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color:#f4f6e9;
+	line-height:1.7em;
+}
+#header {
+	background-image: url(../images/header_bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 135px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#headerInner {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 62px;
+}
+#header h1 {
+	float: left;
+	margin-top: 20px;
+}
+#header  form {
+	float: right;
+	margin-top: 28px;
+}
+#header form input {
+	vertical-align: middle;
+}
+#header ul {
+	clear: both;
+	margin-top: 17px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 56px;
+}
+#header ul li {
+	float: left;
+	list-style-type: none;
+}
+.mgl {
+	margin-left: 1px;
+}
+#contents {
+	width: 960px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainContent {
+	padding-top: 9px;
+}
+#sub1 {
+	float: left;
+	width: 199px;
+	margin-top: 10px;
+}
+#mainInner {
+	float: left;
+	width: 520px;
+	margin-left: 17px;
+	margin-top: 10px;
+}
+#sub2 {
+	float: right;
+}
+#contents h2 {
+	margin-bottom: 6px;
+}
+#sub1 ul li {
+	margin-bottom: 14px;
+}
+.detail {
+	float: right;
+}
+#mainNews {
+	margin-top: 27px;
+}
+#mainMission {
+	overflow: hidden;
+}
+#mainNews table tr th {
+	font-weight: normal;
+	text-align: left;
+}
+#sub2 li {
+	margin-bottom: 7px;
+}
+#footer {
+	background-image: url(../images/footer_bg.png);
+	background-repeat: repeat-x;
+	clear: both;
+	height: 86px;
+	padding-top: 25px;
+}
+#footerInner {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footerInner ul {
+	float: left;
+}
+#footerInner ul li {
+	float: left;
+	margin-right: 17px;
+}
+#footerInner p {
+	color: #FFF;
+	float: right;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 10px;
+	line-height: 10px;
+}

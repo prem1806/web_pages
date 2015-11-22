@@ -1,0 +1,23 @@
+
+<div id="portleft">
+<img class="poimg" id="mainpic" src="p1.jpg" width="400">
+</div>
+<div id="portright">
+<img class="poimg" src="p1.jpg" width="200">
+<img class="poimg" src="p2.jpg" width="200">
+<img class="poimg" src="p3.jpg" width="200">
+<img class="poimg" src="p4.jpg" width="200">
+<img class="poimg" src="p5.jpg" width="200">
+<img class="poimg" src="p6.jpg" width="200">
+<img class="poimg" src="p7.jpg" width="200">
+<img class="poimg" src="p8.jpg" width="200">
+<img class="poimg" src="p9.jpg" width="200">
+
+</div>
+<script type="text/javascript">
+$("#portright img").mouseover(function(e){
+		$("#mainpic").fadeOut(700,function(){
+			$("#mainpic").attr('src',e.target.src).fadeIn(700);
+			});		
+		});
+</script>

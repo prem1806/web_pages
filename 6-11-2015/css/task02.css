@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	width:960px;
+	border-style:solid;
+	border-bottom-width:3px;
+	border-left-width:10px;
+	border-right-width:10px;
+	height:870px;
+	margin:auto;
+}
+#header{
+	width:960px;
+	height:200px;
+	
+	
+}
+h2{
+	padding-top:70px;
+	margin-left:50px;	
+}
+#navbar{
+	width:960px;	
+}
+#nav{
+	width:960px;
+	float:left;
+	list-style-type:none;
+}
+
+.hh1{
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:#333;
+	margin-right:10px;
+	color:#FFF;
+	padding-left:16px;
+	padding-top:5px;
+	}
+
+.hh2{
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:#999;
+	margin-right:10px;
+	padding-left:16px;
+	padding-top:5px;
+	color:#FFF;
+}
+.hh3{
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:#999;
+	margin-right:10px;
+	padding-left:16px;
+	padding-top:5px;
+	color:#FFF;
+}
+.hh4{
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:#999;
+	margin-right:10px;
+	padding-left:16px;
+	padding-top:5px;
+	color:#FFF;
+}
+.hh5{
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:#999;
+	margin-right:10px;
+	padding-left:16px;
+	padding-top:5px;
+	color:#FFF;
+}
+hr{
+	width:960px;
+	height:5px;
+	background-color:#666;
+}
+#middle{
+	width:960px;
+	height:600px;
+	margin-top:10px;
+}
+#mid1{
+	width:600px;
+	height:550px;
+	background-color:#CCC;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	border-radius:10px;
+	text-align:justify;
+	
+}
+
+#mid2{
+	width:300px;
+	height:500px;
+	background-color:#fff;
+	float:left;
+	margin-left:40px;
+	margin-top:10px;
+	border-radius:10px;
+	border: 2px solid #a1a1a1;
+}
+#mid2 h1{
+	margin-left:10px;
+	font-family:Adobe Fan Heiti Std B;
+	font-size:25px;
+		
+}
+#mid1 p{
+	color:#000;
+	
+}
+#mid1 h1,h3,p{
+	margin-left:10px;
+	padding-top:10px;
+	line-height:120%;
+	
+}
+#mid1 img{
+	margin-top:20px;
+}
+#mid1 ul{
+	margin-left:40px;
+	line-height:130%;
+
+}
+#mid2 ul{
+	margin-left:30px;
+	line-height:160%;
+	list-style:none;
+
+}
+
+#foot{
+	width:960px;
+	height:20px;
+	clear:both;
+	padding-top:12px;
+}
+#foot a,p{
+	margin-left:10px;
+	color:#666;
+	text-decoration:none;
+	padding-top:10px;
+}
+#lin {
+	margin-left:20px;
+}
+#fb{
+	margin-left:20px;
+}
+#twi {
+	margin-left:18px;
+}
+	
